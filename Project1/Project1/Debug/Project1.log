@@ -1,2 +1,8 @@
-﻿  Project1.vcxproj -> D:\Programs - C++\Project1\Debug\Project1.exe
+﻿  fractionYingL.cpp
+  cis25Fall20190924Driver.cpp
+d:\programs - c++\cis25fall20190924driver.cpp(14): warning C4101: 'fr1': unreferenced local variable
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(647,5): warning MSB8015: Forcing a rebuild of all source files due to the contents of "D:\Programs - C++\Project1\Project1\Debug\Project1.tlog\link.command.1.tlog" being invalid.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(647,5): warning MSB8015: Forcing a rebuild of all source files due to the contents of "D:\Programs - C++\Project1\Project1\Debug\Project1.tlog\link.command.1.tlog" being invalid.
+  Project1.vcxproj -> D:\Programs - C++\Project1\Debug\Project1.exe
   Project1.vcxproj -> D:\Programs - C++\Project1\Debug\Project1.pdb (Partial PDB)

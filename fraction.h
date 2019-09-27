@@ -1,14 +1,14 @@
 /**
- * Program Name: fractionYingL.h
+ * Program Name: fraction.h
  * Discussion:   specification file
  * Written By:	 Ying Hsuen Lin
- * Date:         2019/10/10
+ * Date:         2019/09/19~26
  */
 
-#ifndef FRACTIONYINGL_H
-#define FRACTIONYINGL_H
+#ifndef FRACTION_H
+#define FRACTION_H
 
-class FractionYingL
+class Fraction
 {
 	//private is not easy to access
 	//public is protected
@@ -33,7 +33,7 @@ public:
 	void setDenom(int);
 	int getDenom(void) const;
 
-	void displaySum(FractionYingL lFr, FractionYingL rFr)
+	void displaySum(Fraction lFr, Fraction rFr)
 	{
 		cout << "\nnum: "
 			<< lFr.num * rFr.denom + lFr.denom * rFr.num

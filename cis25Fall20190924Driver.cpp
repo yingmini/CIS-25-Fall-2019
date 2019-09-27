@@ -14,9 +14,8 @@ int main()
 	FractionYingL fr1;
 
 	//fr1.num = 5;
-	//fr1.denom = 0;
-
 	int setNum(5);
+	//fr1.denom = 0;
 
 	return 0;
 }
