@@ -13,6 +13,24 @@ class Fraction
 	//private is not easy to access
 	//public is protected
 public:
+	Fraction();
+	/*Fraction() : num(0), denom(1)
+		         //initializors
+		         //initialization list 
+	{
+		//num = 0;
+		//denom = 0;
+	}*/
+	Fraction(int n, int d)
+	{
+
+	}
+
+	//Fraction()
+	//{
+	//	  num = 0;
+	//	  denom = 0;
+	//}
 	void setNum(int);
 	/*void setNum(int n)
 	{
@@ -39,6 +57,8 @@ public:
 			<< lFr.num * rFr.denom + lFr.denom * rFr.num
 			<< "\ndenom: " << lFr.denom * rFr.denom << endl;
 	}
+
+	int gcd(int){}
 	
 private:
 	//function members, member functions

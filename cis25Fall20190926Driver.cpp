@@ -6,7 +6,7 @@
  */
 
 #include <iostream>
-#include "fractionYingL.h"
+#include "fraction.h"
 using namespace std;
 
 int gcdBF(int arg1, int arg2);

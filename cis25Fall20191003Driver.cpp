@@ -1,8 +1,8 @@
 /**
- * Program Name: cis25Fall20191001Driver.cpp
+ * Program Name: cis25Fall20191003Driver.cpp
  * Discussion:   Fraction Class
  * Written By:	 Ying Hsuen Lin
- * Date:         2019/10/01
+ * Date:         2019/10/03
  */
 
 #include <iostream>
@@ -10,6 +10,9 @@
 using namespace std;
 
 typedef int* Type;
+
+void gcdBF(void);
+void gcdRecur(void);
 
 void runMenuHw3(void);
 void init1(void);
@@ -19,11 +22,34 @@ void init2(int** ptrPtr);
 void init_A(Type& ptr);
 void init_B(Type* putr);
 
+void displaySum(Fraction, Fraction);
+
 int main()
 {
-	runMenuHw3();
+	int usrValue = 0; //declaration --> initialization
+	int usrValue1(0);
+	int usrValue2{ 0 };
+
+	Fraction fr1; //creation or building an object through Fraction()
+	Fraction fr2{ Fraction() }; //specificly built for default constructor
+	Fraction fr3{ Fraction(1, 2) };
+	Fraction fr4(1, 2);
+	//Fraction fr5(2, 4);
+	//Fraction fr6(1, -2);
+
 
 	return 0;
+}
+
+void displaySum(Fraction l, Fraction r)
+{
+	int n;
+	int d;
+
+	n = l.getNum() * r.getDenom() + l.getDenom() * r.getNum();
+	d = l.getDenom() * r.getDenom();
+
+	cout << "\nRemember to reduce the resulting Fraction!" << endl;
 }
 
 void init1()

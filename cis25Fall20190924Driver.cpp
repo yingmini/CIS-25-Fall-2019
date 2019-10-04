@@ -6,12 +6,12 @@
  */
 
 #include <iostream>
-#include "fractionYingL.h"
+#include "fraction.h"
 using namespace std;
 
 int main()
 {
-	FractionYingL fr1;
+	Fraction fr1;
 
 	//fr1.num = 5;
 	int setNum(5);
