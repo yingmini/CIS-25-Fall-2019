@@ -2,7 +2,7 @@
  * Program Name: fractionYingL.h
  * Discussion:   specification file
  * Written By:	 Ying Hsuen Lin
- * Date:         2019/10/10
+ * Date:         2019/10/15
  */
 
 #ifndef FRACTIONYINGL_H

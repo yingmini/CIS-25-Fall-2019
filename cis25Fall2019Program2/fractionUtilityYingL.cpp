@@ -1,16 +1,15 @@
 /**
- * Program Name: fractionYingL.cpp
+ * Program Name: fractionUtilityYingL.cpp
  * Discussion:   Implementation File
  * Written By:	 Ying Hsuen Lin
  * Date:         2019/10/15
  */
 
 #include <iostream>
-#include "fractionYingL.h"
+#include "fractionUtilityYingL.h"
 using namespace std;
 
-void FractionYingL::setNum(int n) //setNum is a member 
-								  //function of class fraction
+void FractionYingL::setNum(int n)
 {
 	num = n;
 }

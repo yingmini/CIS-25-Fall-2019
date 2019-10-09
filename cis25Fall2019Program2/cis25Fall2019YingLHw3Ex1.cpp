@@ -2,7 +2,7 @@
  * Program Name: cis25Fall2019YingLHw3Ex1.cpp
  * Discussion:   Hw3, Ex1
  * Written By:   Ying Hsuen Lin
- * Date:         2019/10/10
+ * Date:         2019/10/15
  */
 
 #include <iostream>

@@ -26,5 +26,8 @@
     <ClInclude Include="..\..\fractionYingL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\fractionUtilityYingL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -114,11 +114,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\cis25Fall20191001Driver.cpp" />
+    <ClCompile Include="..\..\cis25Fall20191008Driver.cpp" />
     <ClCompile Include="..\..\fraction.cpp" />
+    <ClCompile Include="..\..\fractionUtility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\fraction.h" />
+    <ClInclude Include="..\..\fractionUtility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

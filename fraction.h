@@ -60,6 +60,7 @@ public:
 
 	int gcd(int){}
 	
+	void update(int n, int d);
 private:
 	//function members, member functions
 	int num;   //Negativity will be applied to the numerator

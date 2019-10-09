@@ -14,7 +14,7 @@ typedef int* Type;
 void gcdBF(void);
 void gcdRecur(void);
 
-void runMenuHw3(void);
+void runMenuHw3A(void);
 void init1(void);
 void init1(Type ptr);
 void init2(int** ptrPtr);
