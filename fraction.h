@@ -14,6 +14,10 @@ class Fraction
 	//public is protected
 public:
 	Fraction();
+	Fraction(int n, int d);
+	Fraction(const Fraction& fr);
+	//Fraction(Fraction fr); //it won't work when 
+	                       //you haven't created
 	/*Fraction() : num(0), denom(1)
 		         //initializors
 		         //initialization list 
@@ -51,7 +55,14 @@ public:
 	void setDenom(int);
 	int getDenom(void) const;
 
-	void displaySum(Fraction lFr, Fraction rFr)
+	void print(void) const;
+
+	Fraction add(const Fraction& fr);
+
+	int gcdBF(int arg1, int arg2);
+
+	void displaySum(const Fraction& lFr, const Fraction& rFr)
+		//send you the reference
 	{
 		cout << "\nnum: "
 			<< lFr.num * rFr.denom + lFr.denom * rFr.num
@@ -61,6 +72,19 @@ public:
 	int gcd(int){}
 	
 	void update(int n, int d);
+
+	void foo1()
+	{
+		Fraction* frPtr1{ new Fraction(1, 2) };
+
+		//as you are inside the class definition,
+		//you have more privilleges
+
+		frPtr1->num = 5;
+		cout << frPtr1->denom << endl;
+
+		//denom = 1;
+	}
 private:
 	//function members, member functions
 	int num;   //Negativity will be applied to the numerator

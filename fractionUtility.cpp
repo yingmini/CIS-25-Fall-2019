@@ -72,9 +72,9 @@ void init(Fraction** lPtrPtr, Fraction** rPtrPtr)
 
 		cout << "\nEnter a non-zero int for denom: ";
 		cin >> d;
-		(*(*lPtrPtr)).setNum(n, gcdBF(n, d));
+		(*(*lPtrPtr)).setNum(n / gcdBF(n, d));
 
-		(*lPtrPtr)->setNum(n, gcdBF(n, d));
+		(*lPtrPtr)->setNum(n / gcdBF(n, d));
 	}
 }
 
@@ -83,7 +83,10 @@ int gcdBF(int arg1, int arg2)
 	int gcd = 1;
 
 	for (int i = 2; i <= arg1 && i <= arg2; i++)
-		if (arg1, )
+		if (arg1 % i == 0 && arg2 % i == 0)
+			gcd = i;
+
+	return gcd;
 }
 
 int foo1()

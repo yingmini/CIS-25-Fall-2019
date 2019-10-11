@@ -16,7 +16,7 @@ using namespace std;
 void runMenuHw3A(void);
 void init(Fraction**, Fraction**);
 
-void gcdBF(int arg1, int arg2);
+int gcdBF(int arg1, int arg2);
 
 int foo1(void);
 
